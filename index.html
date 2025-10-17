@@ -1,11 +1,124 @@
-<html>
-  <head></head>
-  <body>
-    <h1>Hello world</h1>
-    <p>salom</p>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjMzOGVra2tsdDZ0aDlheGJoNXIzejIzNDR0aHJyazBnOGh2MWR2NyZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/vRHKYJFbMNapxHnp6x/200.webp"/>
-    <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dW1qNm4wbWZpOGpoN2FlMTJ1Y2h4aGdkdXg5cndyYnA2amsxd2E5cSZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/3oriNW27pn33u8rtuw/giphy.gif"/>
-    <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MmJkb2ZndDgxNnp6YzFrZW9qYm14NWJrZW03MGFvZzZtMWVsNnF5YSZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/7rGC9Ee1MlIv4hn9Ze/giphy.gif">
-    
-  </body>
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shohjahon - Full-Stack Dasturchi</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <h1 class="logo">Shohjahon</h1>
+      <div class="socials">
+        <a href="#" title="GitHub">🐙</a>
+        <a href="#" title="LinkedIn">💼</a>
+        <a href="#" title="Telegram">✈️</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+    <!-- Intro -->
+    <section class="intro">
+      <div class="avatar">SH</div>
+      <h2>Full-Stack Dasturchi</h2>
+      <p>
+        Kelajakda kiberxavfsizlik mutaxassisi bo'lish maqsadida harakat qilmoqdaman. 
+        Django, Python va Telegram botlar yaratishda tajribaga egaman. 
+        Sun'iy intellekt, tarmoq xavfsizligi va dasturiy ta'minot arxitekturasi sohasida qiziqaman.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+      <h3 class="section-title">Asosiy Ko'nikmalar</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Backend Dasturlash</h4>
+          <div class="tags">
+            <span>Django</span><span>Python</span><span>REST API</span>
+            <span>Django DRF</span><span>PostgreSQL</span><span>MySQL</span>
+          </div>
+        </div>
+        <div class="card">
+          <h4>Bot Dasturlash</h4>
+          <div class="tags">
+            <span>Aiogram</span><span>Telegram Bots</span><span>Middleware</span>
+            <span>Subscription Logic</span><span>Test Systems</span>
+          </div>
+        </div>
+        <div class="card">
+          <h4>Frontend & Boshqalar</h4>
+          <div class="tags">
+            <span>React</span><span>Kiberxavfsizlik</span><span>AI/ML</span>
+            <span>Raspberry Pi</span><span>Arxitektura</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+      <h3 class="section-title">Loyihalar</h3>
+      <div class="grid">
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1546900703-cf06143d1239?auto=format&fit=crop&w=800&q=80" alt="nir-ai">
+          <div class="project-body">
+            <h4>nir-ai</h4>
+            <p>Raspberry Pi asosida NIR ko‘p spektrli tibbiy tasvirlarni sun'iy intellekt orqali tahlil qilish loyihasi</p>
+            <div class="tags"><span>Python</span><span>AI/ML</span><span>Raspberry Pi</span><span>NIR Imaging</span></div>
+            <a href="#" class="btn">Loyihani Ko‘rish</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Tester Bot">
+          <div class="project-body">
+            <h4>Tester Bot</h4>
+            <p>Telegram bot orqali testlarni boshqarish, guruh testlari va natijalarni sinxronlash tizimi</p>
+            <div class="tags"><span>Aiogram</span><span>Python</span><span>PostgreSQL</span><span>Telegram API</span></div>
+            <a href="#" class="btn">Loyihani Ko‘rish</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="https://images.unsplash.com/photo-1609921212029-bb5a28e60960?auto=format&fit=crop&w=800&q=80" alt="CRM Tizimi">
+          <div class="project-body">
+            <h4>CRM Tizimi</h4>
+            <p>Django REST Framework asosida yaratilgan to'liq funksional CRM tizimi</p>
+            <div class="tags"><span>Django</span><span>DRF</span><span>PostgreSQL</span><span>REST API</span></div>
+            <a href="#" class="btn">Loyihani Ko‘rish</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="card">
+      <h3 class="section-title">Qiziqishlar</h3>
+      <div class="tags center">
+        <span>Sun'iy Intellekt</span>
+        <span>Tarmoq Xavfsizligi</span>
+        <span>Dasturiy Ta'minot Arxitekturasi</span>
+        <span>Kiberxavfsizlik</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+      <h3 class="section-title">Aloqa</h3>
+      <p>Loyihalar va hamkorlik bo‘yicha takliflar uchun bog‘laning</p>
+      <div class="contact-btns">
+        <a href="#" class="btn primary">✈️ Telegram</a>
+        <a href="#" class="btn">🐙 GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Shohjahon • Full-Stack Dasturchi</p>
+  </footer>
+</body>
 </html>
